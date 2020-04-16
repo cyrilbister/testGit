@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exemple de rôle ARIA button</title>
+    <style type="text/css">
+      [role="button"] {
+       padding:3px;
+       border: 1px solid #CCC;
+      }
+      [role="button"][aria-pressed="true"] {
+       border: 2px solid #000;
+      }
+     </style>
+    <script type="text/JavaScript">
+      function handleBtnClick(event) {
+        event = event || window.event;
+        var pressed = event.target.getAttribute("aria-pressed") == "true";
+        //change la valeur de aria-pressed quand le bouton est basculé :
+        event.target.setAttribute("aria-pressed", pressed ? "false" : "true");
+        //… (perform the button's logic here)
+      }
+
+      function handleBtnKeyUp(event) {
+        event = event || window.event;
+        if (event.keyCode === 32) { // contrôle la touche espace
+          handleBtnClick(event);
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <button role="button" aria-pressed="false" onclick="handleBtnClick(event)" onKeyUp="handleBtnKeyUp(event)">Mode Édition</button>
+  </body>
+</html>
