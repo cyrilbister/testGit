@@ -1,0 +1,433 @@
+.mediaViewInfo {
+	--web-view-name: Réinitialisation de mot de passe;
+	--web-view-id: R_initialisation_de_mot_de_passe;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: R_initialisation_de_mot_de_passe;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#R_initialisation_de_mot_de_passe {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Réinitialisation de mot de passe;
+	--web-view-id: R_initialisation_de_mot_de_passe;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Background {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Fond_color_ {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Background_ {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#ID92017597_244169526757420_478 {
+	opacity: 0.85;
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Groupe_19 {
+	position: absolute;
+	width: 559.938px;
+	height: 64.271px;
+	left: 680px;
+	top: 337px;
+	overflow: visible;
+}
+#Groupe_2 {
+	position: absolute;
+	width: 559.938px;
+	height: 64.271px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_30 {
+	position: absolute;
+	overflow: visible;
+	width: 559.938px;
+	height: 64.271px;
+	left: 0px;
+	top: 0px;
+}
+#Groupe_20 {
+	position: absolute;
+	width: 317px;
+	height: 34px;
+	left: 684px;
+	top: 296px;
+	overflow: visible;
+}
+#Adresse_mail_utilis_e_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 318px;
+	height: 34px;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(51,51,51,1);
+}
+#Sign_In_BTN {
+	position: absolute;
+	width: 341.922px;
+	height: 84.396px;
+	left: 789px;
+	top: 742px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Nouveau_mot_de_passe.html;
+	cursor: pointer;
+}
+.Rectangle_32_bd {
+	position: absolute;
+	overflow: visible;
+	width: 341.922px;
+	height: 84.396px;
+	left: 0px;
+	top: 0px;
+}
+#R_initialiser_mon_mot_de_passe {
+	position: absolute;
+	left: 19.961px;
+	top: 9.396px;
+	overflow: visible;
+	width: 303px;
+	height: 65px;
+	text-align: center;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+#path {
+	position: absolute;
+	width: 52.372px;
+	height: 41.372px;
+	left: 48.372px;
+	top: 60.107px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Page_d_accueil.html;
+	cursor: pointer;
+}
+.path_bg {
+	overflow: visible;
+	position: absolute;
+	width: 52.372px;
+	height: 41.372px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Logo {
+	position: absolute;
+	width: 228px;
+	height: 112px;
+	left: 1667px;
+	top: 60px;
+	overflow: visible;
+}
+#logo_size {
+	position: absolute;
+	width: 174px;
+	height: 80px;
+	left: 27px;
+	top: 16px;
+	overflow: visible;
+}
+#logo_size_bj {
+	position: absolute;
+	width: 174px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_37 {
+	position: absolute;
+	overflow: visible;
+	width: 228px;
+	height: 112px;
+	left: 0px;
+	top: 0px;
+}
+#Groupe_14 {
+	position: absolute;
+	width: 275px;
+	height: 34px;
+	left: 680px;
+	top: 420px;
+	overflow: visible;
+}
+#Date_de_naissance_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 276px;
+	height: 34px;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(51,51,51,1);
+}
+#Pickers____Day___Time {
+	position: absolute;
+	width: 560px;
+	height: 216px;
+	left: 680px;
+	top: 461px;
+	overflow: visible;
+}
+#Background_bo {
+	position: absolute;
+	width: 560px;
+	height: 216px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Background_bp {
+	filter: blur(10px);
+}
+.Background_bp {
+	position: absolute;
+	overflow: visible;
+	width: 560px;
+	height: 216px;
+	left: 0px;
+	top: 0px;
+}
+#Muted {
+	opacity: 0.2;
+	position: absolute;
+	width: 560px;
+	height: 0.5px;
+	left: 0px;
+	top: 215.5px;
+	overflow: visible;
+}
+.Divider {
+	overflow: visible;
+	position: absolute;
+	width: 560px;
+	height: 0.5px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Bottom {
+	position: absolute;
+	width: 560px;
+	height: 89px;
+	left: 0px;
+	top: 127px;
+	overflow: visible;
+}
+.Mask_cb {
+	position: absolute;
+	overflow: visible;
+	width: 560px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+}
+#Bottom_bu {
+	position: absolute;
+	width: 560px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Selected {
+	position: absolute;
+	width: 560px;
+	height: 36px;
+	left: 0px;
+	top: 91px;
+	overflow: visible;
+}
+#Borders {
+	position: absolute;
+	width: 560px;
+	height: 35px;
+	left: 0px;
+	top: 1px;
+	overflow: visible;
+}
+#Muted_ce {
+	opacity: 0.2;
+	position: absolute;
+	width: 560px;
+	height: 0.5px;
+	left: 0px;
+	top: 34.5px;
+	overflow: visible;
+}
+.Divider_cf {
+	overflow: visible;
+	position: absolute;
+	width: 560px;
+	height: 0.5px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Muted_cg {
+	opacity: 0.2;
+	position: absolute;
+	width: 560px;
+	height: 0.5px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Divider_ch {
+	overflow: visible;
+	position: absolute;
+	width: 560px;
+	height: 0.5px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID41 {
+	position: absolute;
+	left: 402.014px;
+	top: 0px;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#ID9 {
+	position: absolute;
+	left: 317.289px;
+	top: 0px;
+	overflow: visible;
+	width: 17px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#Wed_9_Sep {
+	position: absolute;
+	left: 80.558px;
+	top: 0px;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#Top {
+	position: absolute;
+	width: 560px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Mask_c {
+	position: absolute;
+	overflow: visible;
+	width: 560px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+}
+#Top_cn {
+	position: absolute;
+	width: 560px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#__Champ_obligatoire {
+	position: absolute;
+	left: 684px;
+	top: 249px;
+	overflow: visible;
+	width: 224px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(226,39,39,1);
+}
